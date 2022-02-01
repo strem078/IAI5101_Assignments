@@ -5,4 +5,4 @@ import tensorflow as tf
 print("Tensorflow version: ")
 print(tf.__version__)
 print("Available devices for tensorflow use: ") 
-print(tf.get_available_devices())
+print(tf.config.list_physical_devices())
