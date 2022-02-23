@@ -11,6 +11,7 @@ Original file is located at
 from sklearn.datasets import load_breast_cancer
 
 data_loaded = load_breast_cancer()
+print(data_loaded)
 X = data_loaded.data
 y = data_loaded.target
 
